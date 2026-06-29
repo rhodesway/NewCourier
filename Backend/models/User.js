@@ -9,7 +9,7 @@ const UserSchema = monogose.Schema({
     address: { type: String, require: true },
     password: { type: String, require: true },
     status: { type: Number, default: 0 },
-    role: { type: String, default: user },
+    role: { type: String, default: "user" },
 }, {
     timestamp: true
 })
